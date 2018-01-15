@@ -25,6 +25,7 @@ public class FXMLDocumentController implements Initializable {
     @FXML
     protected void test() {
         System.out.println("test");
+        bouton.setLayoutX(100);
     }
     
     @Override
